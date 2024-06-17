@@ -1,0 +1,602 @@
+Index: Assets/Script/GameManager.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System.Collections;\r\nusing System.Collections.Generic;\r\nusing UnityEngine;\r\n\r\npublic class GameManager : MonoBehaviour\r\n{\r\n    // Start is called before the first frame update\r\n    void Start()\r\n    {\r\n        int qwer = 1234;\r\n    }\r\n\r\n    // Update is called once per frame\r\n    void Update()\r\n    {\r\n        \r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Script/GameManager.cs b/Assets/Script/GameManager.cs
+--- a/Assets/Script/GameManager.cs	(revision e3669ebeb2e02fc1febb59399f014aa5c99ddd0d)
++++ b/Assets/Script/GameManager.cs	(date 1718622972801)
+@@ -7,7 +7,7 @@
+     // Start is called before the first frame update
+     void Start()
+     {
+-        int qwer = 1234;
++        
+     }
+ 
+     // Update is called once per frame
+Index: Packages/manifest.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n    \"dependencies\": {\r\n    \"com.ptc.vuforia.engine\": \"file:com.ptc.vuforia.engine-10.22.5.tgz\",\r\n    \"com.unity.2d.sprite\": \"1.0.0\",\r\n    \"com.unity.2d.tilemap\": \"1.0.0\",\r\n    \"com.unity.ads\": \"4.4.2\",\r\n    \"com.unity.ai.navigation\": \"1.1.5\",\r\n    \"com.unity.analytics\": \"3.8.1\",\r\n    \"com.unity.collab-proxy\": \"2.3.1\",\r\n    \"com.unity.ext.nunit\": \"1.0.6\",\r\n    \"com.unity.feature.development\": \"1.0.1\",\r\n    \"com.unity.ide.rider\": \"3.0.28\",\r\n    \"com.unity.ide.visualstudio\": \"2.0.22\",\r\n    \"com.unity.ide.vscode\": \"1.2.5\",\r\n    \"com.unity.nuget.newtonsoft-json\": \"3.2.1\",\r\n    \"com.unity.services.analytics\": \"5.0.0\",\r\n    \"com.unity.services.core\": \"1.12.5\",\r\n    \"com.unity.test-framework\": \"1.1.33\",\r\n    \"com.unity.textmeshpro\": \"3.0.6\",\r\n    \"com.unity.timeline\": \"1.7.6\",\r\n    \"com.unity.ugui\": \"1.0.0\",\r\n    \"com.unity.visualscripting\": \"1.9.4\",\r\n    \"com.unity.modules.ai\": \"1.0.0\",\r\n    \"com.unity.modules.androidjni\": \"1.0.0\",\r\n    \"com.unity.modules.animation\": \"1.0.0\",\r\n    \"com.unity.modules.assetbundle\": \"1.0.0\",\r\n    \"com.unity.modules.audio\": \"1.0.0\",\r\n    \"com.unity.modules.cloth\": \"1.0.0\",\r\n    \"com.unity.modules.director\": \"1.0.0\",\r\n    \"com.unity.modules.imageconversion\": \"1.0.0\",\r\n    \"com.unity.modules.imgui\": \"1.0.0\",\r\n    \"com.unity.modules.jsonserialize\": \"1.0.0\",\r\n    \"com.unity.modules.particlesystem\": \"1.0.0\",\r\n    \"com.unity.modules.physics\": \"1.0.0\",\r\n    \"com.unity.modules.physics2d\": \"1.0.0\",\r\n    \"com.unity.modules.screencapture\": \"1.0.0\",\r\n    \"com.unity.modules.subsystems\": \"1.0.0\",\r\n    \"com.unity.modules.terrain\": \"1.0.0\",\r\n    \"com.unity.modules.terrainphysics\": \"1.0.0\",\r\n    \"com.unity.modules.tilemap\": \"1.0.0\",\r\n    \"com.unity.modules.ui\": \"1.0.0\",\r\n    \"com.unity.modules.uielements\": \"1.0.0\",\r\n    \"com.unity.modules.umbra\": \"1.0.0\",\r\n    \"com.unity.modules.unityanalytics\": \"1.0.0\",\r\n    \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n    \"com.unity.modules.unitywebrequestassetbundle\": \"1.0.0\",\r\n    \"com.unity.modules.unitywebrequestaudio\": \"1.0.0\",\r\n    \"com.unity.modules.unitywebrequesttexture\": \"1.0.0\",\r\n    \"com.unity.modules.unitywebrequestwww\": \"1.0.0\",\r\n    \"com.unity.modules.vehicles\": \"1.0.0\",\r\n    \"com.unity.modules.video\": \"1.0.0\",\r\n    \"com.unity.modules.vr\": \"1.0.0\",\r\n    \"com.unity.modules.wind\": \"1.0.0\",\r\n    \"com.unity.modules.xr\": \"1.0.0\"\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Packages/manifest.json b/Packages/manifest.json
+--- a/Packages/manifest.json	(revision e3669ebeb2e02fc1febb59399f014aa5c99ddd0d)
++++ b/Packages/manifest.json	(date 1718623038306)
+@@ -1,5 +1,5 @@
+ {
+-    "dependencies": {
++  "dependencies": {
+     "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.22.5.tgz",
+     "com.unity.2d.sprite": "1.0.0",
+     "com.unity.2d.tilemap": "1.0.0",
+@@ -12,6 +12,7 @@
+     "com.unity.ide.rider": "3.0.28",
+     "com.unity.ide.visualstudio": "2.0.22",
+     "com.unity.ide.vscode": "1.2.5",
++    "com.unity.inputsystem": "1.7.0",
+     "com.unity.nuget.newtonsoft-json": "3.2.1",
+     "com.unity.services.analytics": "5.0.0",
+     "com.unity.services.core": "1.12.5",
+@@ -53,4 +54,4 @@
+     "com.unity.modules.wind": "1.0.0",
+     "com.unity.modules.xr": "1.0.0"
+   }
+-}
+\ No newline at end of file
++}
+Index: Packages/packages-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"dependencies\": {\r\n    \"com.ptc.vuforia.engine\": {\r\n      \"version\": \"file:com.ptc.vuforia.engine-10.22.5.tgz\",\r\n      \"depth\": 0,\r\n      \"source\": \"local-tarball\",\r\n      \"dependencies\": {\r\n        \"com.unity.ugui\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.2d.sprite\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.2d.tilemap\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.tilemap\": \"1.0.0\",\r\n        \"com.unity.modules.uielements\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.ads\": {\r\n      \"version\": \"4.4.2\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.ugui\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.ai.navigation\": {\r\n      \"version\": \"1.1.5\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.ai\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.analytics\": {\r\n      \"version\": \"3.8.1\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.services.analytics\": \"1.0.4\",\r\n        \"com.unity.ugui\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.collab-proxy\": {\r\n      \"version\": \"2.3.1\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.editorcoroutines\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.ext.nunit\": {\r\n      \"version\": \"1.0.6\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.feature.development\": {\r\n      \"version\": \"1.0.1\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.ide.visualstudio\": \"2.0.22\",\r\n        \"com.unity.ide.rider\": \"3.0.28\",\r\n        \"com.unity.ide.vscode\": \"1.2.5\",\r\n        \"com.unity.editorcoroutines\": \"1.0.0\",\r\n        \"com.unity.performance.profile-analyzer\": \"1.2.2\",\r\n        \"com.unity.test-framework\": \"1.1.33\",\r\n        \"com.unity.testtools.codecoverage\": \"1.2.5\"\r\n      }\r\n    },\r\n    \"com.unity.ide.rider\": {\r\n      \"version\": \"3.0.28\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.ext.nunit\": \"1.0.6\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.ide.visualstudio\": {\r\n      \"version\": \"2.0.22\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.test-framework\": \"1.1.9\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.ide.vscode\": {\r\n      \"version\": \"1.2.5\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.nuget.newtonsoft-json\": {\r\n      \"version\": \"3.2.1\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.performance.profile-analyzer\": {\r\n      \"version\": \"1.2.2\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.services.analytics\": {\r\n      \"version\": \"5.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.ugui\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\",\r\n        \"com.unity.services.core\": \"1.10.1\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.services.core\": {\r\n      \"version\": \"1.12.5\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n        \"com.unity.nuget.newtonsoft-json\": \"3.2.1\",\r\n        \"com.unity.modules.androidjni\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.settings-manager\": {\r\n      \"version\": \"2.0.1\",\r\n      \"depth\": 2,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {},\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.test-framework\": {\r\n      \"version\": \"1.1.33\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.ext.nunit\": \"1.0.6\",\r\n        \"com.unity.modules.imgui\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.testtools.codecoverage\": {\r\n      \"version\": \"1.2.5\",\r\n      \"depth\": 1,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.test-framework\": \"1.0.16\",\r\n        \"com.unity.settings-manager\": \"1.0.1\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.textmeshpro\": {\r\n      \"version\": \"3.0.6\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.ugui\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.timeline\": {\r\n      \"version\": \"1.7.6\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.director\": \"1.0.0\",\r\n        \"com.unity.modules.animation\": \"1.0.0\",\r\n        \"com.unity.modules.audio\": \"1.0.0\",\r\n        \"com.unity.modules.particlesystem\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.ugui\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.ui\": \"1.0.0\",\r\n        \"com.unity.modules.imgui\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.visualscripting\": {\r\n      \"version\": \"1.9.4\",\r\n      \"depth\": 0,\r\n      \"source\": \"registry\",\r\n      \"dependencies\": {\r\n        \"com.unity.ugui\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      },\r\n      \"url\": \"https://packages.unity.com\"\r\n    },\r\n    \"com.unity.modules.ai\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.androidjni\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.animation\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.assetbundle\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.audio\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.cloth\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.physics\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.director\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.audio\": \"1.0.0\",\r\n        \"com.unity.modules.animation\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.imageconversion\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.imgui\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.jsonserialize\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.particlesystem\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.physics\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.physics2d\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.screencapture\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.imageconversion\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.subsystems\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.terrain\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.terrainphysics\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.physics\": \"1.0.0\",\r\n        \"com.unity.modules.terrain\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.tilemap\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.physics2d\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.ui\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.uielements\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.ui\": \"1.0.0\",\r\n        \"com.unity.modules.imgui\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.umbra\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.unityanalytics\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.unitywebrequest\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.unitywebrequestassetbundle\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.assetbundle\": \"1.0.0\",\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.unitywebrequestaudio\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n        \"com.unity.modules.audio\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.unitywebrequesttexture\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n        \"com.unity.modules.imageconversion\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.unitywebrequestwww\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\",\r\n        \"com.unity.modules.unitywebrequestassetbundle\": \"1.0.0\",\r\n        \"com.unity.modules.unitywebrequestaudio\": \"1.0.0\",\r\n        \"com.unity.modules.audio\": \"1.0.0\",\r\n        \"com.unity.modules.assetbundle\": \"1.0.0\",\r\n        \"com.unity.modules.imageconversion\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.vehicles\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.physics\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.video\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.audio\": \"1.0.0\",\r\n        \"com.unity.modules.ui\": \"1.0.0\",\r\n        \"com.unity.modules.unitywebrequest\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.vr\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\",\r\n        \"com.unity.modules.physics\": \"1.0.0\",\r\n        \"com.unity.modules.xr\": \"1.0.0\"\r\n      }\r\n    },\r\n    \"com.unity.modules.wind\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {}\r\n    },\r\n    \"com.unity.modules.xr\": {\r\n      \"version\": \"1.0.0\",\r\n      \"depth\": 0,\r\n      \"source\": \"builtin\",\r\n      \"dependencies\": {\r\n        \"com.unity.modules.physics\": \"1.0.0\",\r\n        \"com.unity.modules.jsonserialize\": \"1.0.0\",\r\n        \"com.unity.modules.subsystems\": \"1.0.0\"\r\n      }\r\n    }\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Packages/packages-lock.json b/Packages/packages-lock.json
+--- a/Packages/packages-lock.json	(revision e3669ebeb2e02fc1febb59399f014aa5c99ddd0d)
++++ b/Packages/packages-lock.json	(date 1718623038314)
+@@ -111,6 +111,15 @@
+       "dependencies": {},
+       "url": "https://packages.unity.com"
+     },
++    "com.unity.inputsystem": {
++      "version": "1.7.0",
++      "depth": 0,
++      "source": "registry",
++      "dependencies": {
++        "com.unity.modules.uielements": "1.0.0"
++      },
++      "url": "https://packages.unity.com"
++    },
+     "com.unity.nuget.newtonsoft-json": {
+       "version": "3.2.1",
+       "depth": 0,
+Index: Assets/Scenes/SampleScene.unity
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\n%TAG !u! tag:unity3d.com,2011:\n--- !u!29 &1\nOcclusionCullingSettings:\n  m_ObjectHideFlags: 0\n  serializedVersion: 2\n  m_OcclusionBakeSettings:\n    smallestOccluder: 5\n    smallestHole: 0.25\n    backfaceThreshold: 100\n  m_SceneGUID: 00000000000000000000000000000000\n  m_OcclusionCullingData: {fileID: 0}\n--- !u!104 &2\nRenderSettings:\n  m_ObjectHideFlags: 0\n  serializedVersion: 9\n  m_Fog: 0\n  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}\n  m_FogMode: 3\n  m_FogDensity: 0.01\n  m_LinearFogStart: 0\n  m_LinearFogEnd: 300\n  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}\n  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}\n  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}\n  m_AmbientIntensity: 1\n  m_AmbientMode: 0\n  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}\n  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}\n  m_HaloStrength: 0.5\n  m_FlareStrength: 1\n  m_FlareFadeSpeed: 3\n  m_HaloTexture: {fileID: 0}\n  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}\n  m_DefaultReflectionMode: 0\n  m_DefaultReflectionResolution: 128\n  m_ReflectionBounces: 1\n  m_ReflectionIntensity: 1\n  m_CustomReflection: {fileID: 0}\n  m_Sun: {fileID: 705507994}\n  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}\n  m_UseRadianceAmbientProbe: 0\n--- !u!157 &3\nLightmapSettings:\n  m_ObjectHideFlags: 0\n  serializedVersion: 12\n  m_GIWorkflowMode: 1\n  m_GISettings:\n    serializedVersion: 2\n    m_BounceScale: 1\n    m_IndirectOutputScale: 1\n    m_AlbedoBoost: 1\n    m_EnvironmentLightingMode: 0\n    m_EnableBakedLightmaps: 1\n    m_EnableRealtimeLightmaps: 0\n  m_LightmapEditorSettings:\n    serializedVersion: 12\n    m_Resolution: 2\n    m_BakeResolution: 40\n    m_AtlasSize: 1024\n    m_AO: 0\n    m_AOMaxDistance: 1\n    m_CompAOExponent: 1\n    m_CompAOExponentDirect: 0\n    m_ExtractAmbientOcclusion: 0\n    m_Padding: 2\n    m_LightmapParameters: {fileID: 0}\n    m_LightmapsBakeMode: 1\n    m_TextureCompression: 1\n    m_FinalGather: 0\n    m_FinalGatherFiltering: 1\n    m_FinalGatherRayCount: 256\n    m_ReflectionCompression: 2\n    m_MixedBakeMode: 2\n    m_BakeBackend: 1\n    m_PVRSampling: 1\n    m_PVRDirectSampleCount: 32\n    m_PVRSampleCount: 500\n    m_PVRBounces: 2\n    m_PVREnvironmentSampleCount: 500\n    m_PVREnvironmentReferencePointCount: 2048\n    m_PVRFilteringMode: 2\n    m_PVRDenoiserTypeDirect: 0\n    m_PVRDenoiserTypeIndirect: 0\n    m_PVRDenoiserTypeAO: 0\n    m_PVRFilterTypeDirect: 0\n    m_PVRFilterTypeIndirect: 0\n    m_PVRFilterTypeAO: 0\n    m_PVREnvironmentMIS: 0\n    m_PVRCulling: 1\n    m_PVRFilteringGaussRadiusDirect: 1\n    m_PVRFilteringGaussRadiusIndirect: 5\n    m_PVRFilteringGaussRadiusAO: 2\n    m_PVRFilteringAtrousPositionSigmaDirect: 0.5\n    m_PVRFilteringAtrousPositionSigmaIndirect: 2\n    m_PVRFilteringAtrousPositionSigmaAO: 1\n    m_ExportTrainingData: 0\n    m_TrainingDataDestination: TrainingData\n    m_LightProbeSampleCountMultiplier: 4\n  m_LightingDataAsset: {fileID: 0}\n  m_LightingSettings: {fileID: 0}\n--- !u!196 &4\nNavMeshSettings:\n  serializedVersion: 2\n  m_ObjectHideFlags: 0\n  m_BuildSettings:\n    serializedVersion: 2\n    agentTypeID: 0\n    agentRadius: 0.5\n    agentHeight: 2\n    agentSlope: 45\n    agentClimb: 0.4\n    ledgeDropHeight: 0\n    maxJumpAcrossDistance: 0\n    minRegionArea: 2\n    manualCellSize: 0\n    cellSize: 0.16666667\n    manualTileSize: 0\n    tileSize: 256\n    accuratePlacement: 0\n    debug:\n      m_Flags: 0\n  m_NavMeshData: {fileID: 0}\n--- !u!1 &705507993\nGameObject:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInternal: {fileID: 0}\n  serializedVersion: 6\n  m_Component:\n  - component: {fileID: 705507995}\n  - component: {fileID: 705507994}\n  m_Layer: 0\n  m_Name: Directional Light\n  m_TagString: Untagged\n  m_Icon: {fileID: 0}\n  m_NavMeshLayer: 0\n  m_StaticEditorFlags: 0\n  m_IsActive: 1\n--- !u!108 &705507994\nLight:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInternal: {fileID: 0}\n  m_GameObject: {fileID: 705507993}\n  m_Enabled: 1\n  serializedVersion: 8\n  m_Type: 1\n  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}\n  m_Intensity: 1\n  m_Range: 10\n  m_SpotAngle: 30\n  m_CookieSize: 10\n  m_Shadows:\n    m_Type: 2\n    m_Resolution: -1\n    m_CustomResolution: -1\n    m_Strength: 1\n    m_Bias: 0.05\n    m_NormalBias: 0.4\n    m_NearPlane: 0.2\n  m_Cookie: {fileID: 0}\n  m_DrawHalo: 0\n  m_Flare: {fileID: 0}\n  m_RenderMode: 0\n  m_CullingMask:\n    serializedVersion: 2\n    m_Bits: 4294967295\n  m_Lightmapping: 1\n  m_LightShadowCasterMode: 0\n  m_AreaSize: {x: 1, y: 1}\n  m_BounceIntensity: 1\n  m_ColorTemperature: 6570\n  m_UseColorTemperature: 0\n  m_ShadowRadius: 0\n  m_ShadowAngle: 0\n--- !u!4 &705507995\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInternal: {fileID: 0}\n  m_GameObject: {fileID: 705507993}\n  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}\n  m_LocalPosition: {x: 0, y: 3, z: 0}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_Children: []\n  m_Father: {fileID: 0}\n  m_RootOrder: 1\n  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}\n--- !u!1 &963194225\nGameObject:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInternal: {fileID: 0}\n  serializedVersion: 6\n  m_Component:\n  - component: {fileID: 963194228}\n  - component: {fileID: 963194227}\n  - component: {fileID: 963194226}\n  m_Layer: 0\n  m_Name: Main Camera\n  m_TagString: MainCamera\n  m_Icon: {fileID: 0}\n  m_NavMeshLayer: 0\n  m_StaticEditorFlags: 0\n  m_IsActive: 1\n--- !u!81 &963194226\nAudioListener:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInternal: {fileID: 0}\n  m_GameObject: {fileID: 963194225}\n  m_Enabled: 1\n--- !u!20 &963194227\nCamera:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInternal: {fileID: 0}\n  m_GameObject: {fileID: 963194225}\n  m_Enabled: 1\n  serializedVersion: 2\n  m_ClearFlags: 1\n  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}\n  m_projectionMatrixMode: 1\n  m_SensorSize: {x: 36, y: 24}\n  m_LensShift: {x: 0, y: 0}\n  m_GateFitMode: 2\n  m_FocalLength: 50\n  m_NormalizedViewPortRect:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 1\n    height: 1\n  near clip plane: 0.3\n  far clip plane: 1000\n  field of view: 60\n  orthographic: 0\n  orthographic size: 5\n  m_Depth: -1\n  m_CullingMask:\n    serializedVersion: 2\n    m_Bits: 4294967295\n  m_RenderingPath: -1\n  m_TargetTexture: {fileID: 0}\n  m_TargetDisplay: 0\n  m_TargetEye: 3\n  m_HDR: 1\n  m_AllowMSAA: 1\n  m_AllowDynamicResolution: 0\n  m_ForceIntoRT: 0\n  m_OcclusionCulling: 1\n  m_StereoConvergence: 10\n  m_StereoSeparation: 0.022\n--- !u!4 &963194228\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInternal: {fileID: 0}\n  m_GameObject: {fileID: 963194225}\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: 1, z: -10}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_Children: []\n  m_Father: {fileID: 0}\n  m_RootOrder: 0\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scenes/SampleScene.unity b/Assets/Scenes/SampleScene.unity
+--- a/Assets/Scenes/SampleScene.unity	(revision e3669ebeb2e02fc1febb59399f014aa5c99ddd0d)
++++ b/Assets/Scenes/SampleScene.unity	(date 1718623393706)
+@@ -38,7 +38,7 @@
+   m_ReflectionIntensity: 1
+   m_CustomReflection: {fileID: 0}
+   m_Sun: {fileID: 705507994}
+-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
++  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+   m_UseRadianceAmbientProbe: 0
+ --- !u!157 &3
+ LightmapSettings:
+@@ -104,7 +104,7 @@
+   serializedVersion: 2
+   m_ObjectHideFlags: 0
+   m_BuildSettings:
+-    serializedVersion: 2
++    serializedVersion: 3
+     agentTypeID: 0
+     agentRadius: 0.5
+     agentHeight: 2
+@@ -117,15 +117,188 @@
+     cellSize: 0.16666667
+     manualTileSize: 0
+     tileSize: 256
+-    accuratePlacement: 0
++    buildHeightMesh: 0
++    maxJobWorkers: 0
++    preserveTilesOutsideBounds: 0
+     debug:
+       m_Flags: 0
+   m_NavMeshData: {fileID: 0}
++--- !u!1 &412469909
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 412469912}
++  - component: {fileID: 412469911}
++  - component: {fileID: 412469910}
++  m_Layer: 0
++  m_Name: EventSystem
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!114 &412469910
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 412469909}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_SendPointerHoverToParent: 1
++  m_HorizontalAxis: Horizontal
++  m_VerticalAxis: Vertical
++  m_SubmitButton: Submit
++  m_CancelButton: Cancel
++  m_InputActionsPerSecond: 10
++  m_RepeatDelay: 0.5
++  m_ForceModuleActive: 0
++--- !u!114 &412469911
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 412469909}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_FirstSelected: {fileID: 0}
++  m_sendNavigationEvents: 1
++  m_DragThreshold: 10
++--- !u!4 &412469912
++Transform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 412469909}
++  serializedVersion: 2
++  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children: []
++  m_Father: {fileID: 0}
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!1 &645651781
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 645651785}
++  - component: {fileID: 645651784}
++  - component: {fileID: 645651783}
++  - component: {fileID: 645651782}
++  m_Layer: 5
++  m_Name: Canvas
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!114 &645651782
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 645651781}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_IgnoreReversedGraphics: 1
++  m_BlockingObjects: 0
++  m_BlockingMask:
++    serializedVersion: 2
++    m_Bits: 4294967295
++--- !u!114 &645651783
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 645651781}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_UiScaleMode: 0
++  m_ReferencePixelsPerUnit: 100
++  m_ScaleFactor: 1
++  m_ReferenceResolution: {x: 800, y: 600}
++  m_ScreenMatchMode: 0
++  m_MatchWidthOrHeight: 0
++  m_PhysicalUnit: 3
++  m_FallbackScreenDPI: 96
++  m_DefaultSpriteDPI: 96
++  m_DynamicPixelsPerUnit: 1
++  m_PresetInfoIsWorld: 0
++--- !u!223 &645651784
++Canvas:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 645651781}
++  m_Enabled: 1
++  serializedVersion: 3
++  m_RenderMode: 0
++  m_Camera: {fileID: 0}
++  m_PlaneDistance: 100
++  m_PixelPerfect: 0
++  m_ReceivesEvents: 1
++  m_OverrideSorting: 0
++  m_OverridePixelPerfect: 0
++  m_SortingBucketNormalizedSize: 0
++  m_VertexColorAlwaysGammaSpace: 0
++  m_AdditionalShaderChannelsFlag: 0
++  m_UpdateRectTransformForStandalone: 0
++  m_SortingLayerID: 0
++  m_SortingOrder: 0
++  m_TargetDisplay: 0
++--- !u!224 &645651785
++RectTransform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 645651781}
++  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 0}
++  m_LocalScale: {x: 0, y: 0, z: 0}
++  m_ConstrainProportionsScale: 0
++  m_Children:
++  - {fileID: 1084005892}
++  m_Father: {fileID: 0}
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++  m_AnchorMin: {x: 0, y: 0}
++  m_AnchorMax: {x: 0, y: 0}
++  m_AnchoredPosition: {x: 0, y: 0}
++  m_SizeDelta: {x: 0, y: 0}
++  m_Pivot: {x: 0, y: 0}
+ --- !u!1 &705507993
+ GameObject:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInternal: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
+   serializedVersion: 6
+   m_Component:
+   - component: {fileID: 705507995}
+@@ -141,15 +314,18 @@
+ Light:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInternal: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
+   m_GameObject: {fileID: 705507993}
+   m_Enabled: 1
+-  serializedVersion: 8
++  serializedVersion: 10
+   m_Type: 1
++  m_Shape: 0
+   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+   m_Intensity: 1
+   m_Range: 10
+   m_SpotAngle: 30
++  m_InnerSpotAngle: 21.80208
+   m_CookieSize: 10
+   m_Shadows:
+     m_Type: 2
+@@ -159,6 +335,24 @@
+     m_Bias: 0.05
+     m_NormalBias: 0.4
+     m_NearPlane: 0.2
++    m_CullingMatrixOverride:
++      e00: 1
++      e01: 0
++      e02: 0
++      e03: 0
++      e10: 0
++      e11: 1
++      e12: 0
++      e13: 0
++      e20: 0
++      e21: 0
++      e22: 1
++      e23: 0
++      e30: 0
++      e31: 0
++      e32: 0
++      e33: 1
++    m_UseCullingMatrixOverride: 0
+   m_Cookie: {fileID: 0}
+   m_DrawHalo: 0
+   m_Flare: {fileID: 0}
+@@ -166,32 +360,39 @@
+   m_CullingMask:
+     serializedVersion: 2
+     m_Bits: 4294967295
++  m_RenderingLayerMask: 1
+   m_Lightmapping: 1
+   m_LightShadowCasterMode: 0
+   m_AreaSize: {x: 1, y: 1}
+   m_BounceIntensity: 1
+   m_ColorTemperature: 6570
+   m_UseColorTemperature: 0
++  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
++  m_UseBoundingSphereOverride: 0
++  m_UseViewFrustumForShadowCasterCull: 1
+   m_ShadowRadius: 0
+   m_ShadowAngle: 0
+ --- !u!4 &705507995
+ Transform:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInternal: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
+   m_GameObject: {fileID: 705507993}
++  serializedVersion: 2
+   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+   m_LocalPosition: {x: 0, y: 3, z: 0}
+   m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
+   m_Children: []
+   m_Father: {fileID: 0}
+-  m_RootOrder: 1
+   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+ --- !u!1 &963194225
+ GameObject:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInternal: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
+   serializedVersion: 6
+   m_Component:
+   - component: {fileID: 963194228}
+@@ -208,24 +409,35 @@
+ AudioListener:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInternal: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
+   m_GameObject: {fileID: 963194225}
+   m_Enabled: 1
+ --- !u!20 &963194227
+ Camera:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInternal: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
+   m_GameObject: {fileID: 963194225}
+   m_Enabled: 1
+   serializedVersion: 2
+   m_ClearFlags: 1
+   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+   m_projectionMatrixMode: 1
+-  m_SensorSize: {x: 36, y: 24}
+-  m_LensShift: {x: 0, y: 0}
+   m_GateFitMode: 2
++  m_FOVAxisMode: 0
++  m_Iso: 200
++  m_ShutterSpeed: 0.005
++  m_Aperture: 16
++  m_FocusDistance: 10
+   m_FocalLength: 50
++  m_BladeCount: 5
++  m_Curvature: {x: 2, y: 11}
++  m_BarrelClipping: 0.25
++  m_Anamorphism: 0
++  m_SensorSize: {x: 36, y: 24}
++  m_LensShift: {x: 0, y: 0}
+   m_NormalizedViewPortRect:
+     serializedVersion: 2
+     x: 0
+@@ -256,12 +468,97 @@
+ Transform:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
+-  m_PrefabInternal: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
+   m_GameObject: {fileID: 963194225}
++  serializedVersion: 2
+   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+   m_LocalPosition: {x: 0, y: 1, z: -10}
+   m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
+   m_Children: []
+   m_Father: {fileID: 0}
+-  m_RootOrder: 0
+   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!1 &1084005891
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 1084005892}
++  - component: {fileID: 1084005894}
++  - component: {fileID: 1084005893}
++  m_Layer: 5
++  m_Name: JoyStickContainer
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!224 &1084005892
++RectTransform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1084005891}
++  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children: []
++  m_Father: {fileID: 645651785}
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++  m_AnchorMin: {x: 0.5, y: 0.5}
++  m_AnchorMax: {x: 0.5, y: 0.5}
++  m_AnchoredPosition: {x: 0, y: 0}
++  m_SizeDelta: {x: 100, y: 100}
++  m_Pivot: {x: 0.5, y: 0.5}
++--- !u!114 &1084005893
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1084005891}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  m_Material: {fileID: 0}
++  m_Color: {r: 1, g: 1, b: 1, a: 1}
++  m_RaycastTarget: 1
++  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
++  m_Maskable: 1
++  m_OnCullStateChanged:
++    m_PersistentCalls:
++      m_Calls: []
++  m_Sprite: {fileID: 0}
++  m_Type: 0
++  m_PreserveAspect: 0
++  m_FillCenter: 1
++  m_FillMethod: 4
++  m_FillAmount: 1
++  m_FillClockwise: 1
++  m_FillOrigin: 0
++  m_UseSpriteMesh: 0
++  m_PixelsPerUnitMultiplier: 1
++--- !u!222 &1084005894
++CanvasRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1084005891}
++  m_CullTransparentMesh: 1
++--- !u!1660057539 &9223372036854775807
++SceneRoots:
++  m_ObjectHideFlags: 0
++  m_Roots:
++  - {fileID: 963194228}
++  - {fileID: 705507995}
++  - {fileID: 645651785}
++  - {fileID: 412469912}
+Index: ProjectSettings/ProjectSettings.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\n%TAG !u! tag:unity3d.com,2011:\n--- !u!129 &1\nPlayerSettings:\n  m_ObjectHideFlags: 0\n  serializedVersion: 26\n  productGUID: 00000000000000000000000000000000\n  AndroidProfiler: 0\n  AndroidFilterTouchesWhenObscured: 0\n  AndroidEnableSustainedPerformanceMode: 0\n  defaultScreenOrientation: 0\n  targetDevice: 2\n  useOnDemandResources: 0\n  accelerometerFrequency: 60\n  companyName: DefaultCompany\n  productName: FinalARProject\n  defaultCursor: {fileID: 0}\n  cursorHotspot: {x: 0, y: 0}\n  m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}\n  m_ShowUnitySplashScreen: 1\n  m_ShowUnitySplashLogo: 1\n  m_SplashScreenOverlayOpacity: 1\n  m_SplashScreenAnimation: 1\n  m_SplashScreenLogoStyle: 1\n  m_SplashScreenDrawMode: 0\n  m_SplashScreenBackgroundAnimationZoom: 1\n  m_SplashScreenLogoAnimationZoom: 1\n  m_SplashScreenBackgroundLandscapeAspect: 1\n  m_SplashScreenBackgroundPortraitAspect: 1\n  m_SplashScreenBackgroundLandscapeUvs:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 1\n    height: 1\n  m_SplashScreenBackgroundPortraitUvs:\n    serializedVersion: 2\n    x: 0\n    y: 0\n    width: 1\n    height: 1\n  m_SplashScreenLogos: []\n  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: e0866a3fe6007224a9e3078d831ce6fc, type: 3}\n  m_HolographicTrackingLossScreen: {fileID: 0}\n  defaultScreenWidth: 1024\n  defaultScreenHeight: 768\n  defaultScreenWidthWeb: 960\n  defaultScreenHeightWeb: 600\n  m_StereoRenderingPath: 0\n  m_ActiveColorSpace: 0\n  unsupportedMSAAFallback: 0\n  m_SpriteBatchVertexThreshold: 300\n  m_MTRendering: 1\n  mipStripping: 0\n  numberOfMipsStripped: 0\n  numberOfMipsStrippedPerMipmapLimitGroup: {}\n  m_StackTraceTypes: 010000000100000001000000010000000100000001000000\n  iosShowActivityIndicatorOnLoading: -1\n  androidShowActivityIndicatorOnLoading: -1\n  iosUseCustomAppBackgroundBehavior: 0\n  allowedAutorotateToPortrait: 1\n  allowedAutorotateToPortraitUpsideDown: 1\n  allowedAutorotateToLandscapeRight: 1\n  allowedAutorotateToLandscapeLeft: 1\n  useOSAutorotation: 1\n  use32BitDisplayBuffer: 1\n  preserveFramebufferAlpha: 0\n  disableDepthAndStencilBuffers: 0\n  androidStartInFullscreen: 1\n  androidRenderOutsideSafeArea: 1\n  androidUseSwappy: 0\n  androidBlitType: 0\n  androidResizableWindow: 0\n  androidDefaultWindowWidth: 1920\n  androidDefaultWindowHeight: 1080\n  androidMinimumWindowWidth: 400\n  androidMinimumWindowHeight: 300\n  androidFullscreenMode: 1\n  androidAutoRotationBehavior: 1\n  defaultIsNativeResolution: 1\n  macRetinaSupport: 0\n  runInBackground: 0\n  captureSingleScreen: 0\n  muteOtherAudioSources: 0\n  Prepare IOS For Recording: 0\n  Force IOS Speakers When Recording: 0\n  deferSystemGesturesMode: 0\n  hideHomeButton: 0\n  submitAnalytics: 1\n  usePlayerLog: 1\n  dedicatedServerOptimizations: 0\n  bakeCollisionMeshes: 0\n  forceSingleInstance: 0\n  useFlipModelSwapchain: 1\n  resizableWindow: 0\n  useMacAppStoreValidation: 0\n  macAppStoreCategory: public.app-category.games\n  gpuSkinning: 0\n  xboxPIXTextureCapture: 0\n  xboxEnableAvatar: 0\n  xboxEnableKinect: 0\n  xboxEnableKinectAutoTracking: 0\n  xboxEnableFitness: 0\n  visibleInBackground: 0\n  allowFullscreenSwitch: 1\n  fullscreenMode: 1\n  xboxSpeechDB: 0\n  xboxEnableHeadOrientation: 0\n  xboxEnableGuest: 0\n  xboxEnablePIXSampling: 0\n  metalFramebufferOnly: 0\n  xboxOneResolution: 0\n  xboxOneSResolution: 0\n  xboxOneXResolution: 3\n  xboxOneMonoLoggingLevel: 0\n  xboxOneLoggingLevel: 1\n  xboxOneDisableEsram: 0\n  xboxOneEnableTypeOptimization: 0\n  xboxOnePresentImmediateThreshold: 0\n  switchQueueCommandMemory: 0\n  switchQueueControlMemory: 16384\n  switchQueueComputeMemory: 262144\n  switchNVNShaderPoolsGranularity: 33554432\n  switchNVNDefaultPoolsGranularity: 16777216\n  switchNVNOtherPoolsGranularity: 16777216\n  switchGpuScratchPoolGranularity: 2097152\n  switchAllowGpuScratchShrinking: 0\n  switchNVNMaxPublicTextureIDCount: 0\n  switchNVNMaxPublicSamplerIDCount: 0\n  switchNVNGraphicsFirmwareMemory: 32\n  switchMaxWorkerMultiple: 8\n  stadiaPresentMode: 0\n  stadiaTargetFramerate: 0\n  vulkanNumSwapchainBuffers: 3\n  vulkanEnableSetSRGBWrite: 0\n  vulkanEnablePreTransform: 0\n  vulkanEnableLateAcquireNextImage: 0\n  vulkanEnableCommandBufferRecycling: 1\n  loadStoreDebugModeEnabled: 0\n  visionOSBundleVersion: 1.0\n  tvOSBundleVersion: 1.0\n  bundleVersion: 10.22.5\n  preloadedAssets: []\n  metroInputSource: 0\n  wsaTransparentSwapchain: 0\n  m_HolographicPauseOnTrackingLoss: 1\n  xboxOneDisableKinectGpuReservation: 0\n  xboxOneEnable7thCore: 0\n  vrSettings:\n    enable360StereoCapture: 0\n  isWsaHolographicRemotingEnabled: 0\n  enableFrameTimingStats: 0\n  enableOpenGLProfilerGPURecorders: 1\n  allowHDRDisplaySupport: 0\n  useHDRDisplay: 0\n  hdrBitDepth: 0\n  m_ColorGamuts: 00000000\n  targetPixelDensity: 30\n  resolutionScalingMode: 0\n  resetResolutionOnWindowResize: 0\n  androidSupportedAspectRatio: 1\n  androidMaxAspectRatio: 2.1\n  applicationIdentifier:\n    Android: com.vuforia.engine.VuforiaEngine\n    Lumin: com.PTCInc.VuforiaEngine\n    Standalone: com.PTCInc.VuforiaEngine\n    iPhone: com.vuforia.engine.VuforiaEngine\n  buildNumber:\n    Standalone: 0\n    VisionOS: 0\n    iPhone: 0\n    tvOS: 0\n  overrideDefaultApplicationIdentifier: 1\n  AndroidBundleVersionCode: 10225\n  AndroidMinSdkVersion: 26\n  AndroidTargetSdkVersion: 0\n  AndroidPreferredInstallLocation: 1\n  aotOptions: \n  stripEngineCode: 1\n  iPhoneStrippingLevel: 0\n  iPhoneScriptCallOptimization: 0\n  ForceInternetPermission: 0\n  ForceSDCardPermission: 0\n  CreateWallpaper: 0\n  APKExpansionFiles: 0\n  keepLoadedShadersAlive: 0\n  StripUnusedMeshComponents: 0\n  strictShaderVariantMatching: 0\n  VertexChannelCompressionMask: 214\n  iPhoneSdkVersion: 988\n  iOSTargetOSVersionString: 15.0\n  tvOSSdkVersion: 0\n  tvOSRequireExtendedGameController: 0\n  tvOSTargetOSVersionString: 12.0\n  VisionOSSdkVersion: 0\n  VisionOSTargetOSVersionString: 1.0\n  uIPrerenderedIcon: 0\n  uIRequiresPersistentWiFi: 0\n  uIRequiresFullScreen: 1\n  uIStatusBarHidden: 1\n  uIExitOnSuspend: 0\n  uIStatusBarStyle: 0\n  appleTVSplashScreen: {fileID: 0}\n  appleTVSplashScreen2x: {fileID: 0}\n  tvOSSmallIconLayers: []\n  tvOSSmallIconLayers2x: []\n  tvOSLargeIconLayers: []\n  tvOSLargeIconLayers2x: []\n  tvOSTopShelfImageLayers: []\n  tvOSTopShelfImageLayers2x: []\n  tvOSTopShelfImageWideLayers: []\n  tvOSTopShelfImageWideLayers2x: []\n  iOSLaunchScreenType: 0\n  iOSLaunchScreenPortrait: {fileID: 0}\n  iOSLaunchScreenLandscape: {fileID: 0}\n  iOSLaunchScreenBackgroundColor:\n    serializedVersion: 2\n    rgba: 0\n  iOSLaunchScreenFillPct: 100\n  iOSLaunchScreenSize: 100\n  iOSLaunchScreenCustomXibPath: \n  iOSLaunchScreeniPadType: 0\n  iOSLaunchScreeniPadImage: {fileID: 0}\n  iOSLaunchScreeniPadBackgroundColor:\n    serializedVersion: 2\n    rgba: 0\n  iOSLaunchScreeniPadFillPct: 100\n  iOSLaunchScreeniPadSize: 100\n  iOSLaunchScreeniPadCustomXibPath: \n  iOSLaunchScreenCustomStoryboardPath: \n  iOSLaunchScreeniPadCustomStoryboardPath: \n  iOSDeviceRequirements: []\n  iOSURLSchemes: []\n  macOSURLSchemes: []\n  iOSBackgroundModes: 0\n  iOSMetalForceHardShadows: 0\n  metalEditorSupport: 1\n  metalAPIValidation: 1\n  metalCompileShaderBinary: 0\n  iOSRenderExtraFrameOnPause: 1\n  iosCopyPluginsCodeInsteadOfSymlink: 0\n  appleDeveloperTeamID: \n  iOSManualSigningProvisioningProfileID: \n  tvOSManualSigningProvisioningProfileID: \n  VisionOSManualSigningProvisioningProfileID: \n  iOSManualSigningProvisioningProfileType: 0\n  tvOSManualSigningProvisioningProfileType: 0\n  VisionOSManualSigningProvisioningProfileType: 0\n  appleEnableAutomaticSigning: 0\n  iOSRequireARKit: 0\n  iOSAutomaticallyDetectAndAddCapabilities: 1\n  appleEnableProMotion: 0\n  shaderPrecisionModel: 0\n  clonedFromGUID: 821e701c7b3b347e4bee503db291723b\n  templatePackageId: \n  templateDefaultScene: \n  useCustomMainManifest: 0\n  useCustomLauncherManifest: 0\n  useCustomMainGradleTemplate: 0\n  useCustomLauncherGradleManifest: 0\n  useCustomBaseGradleTemplate: 0\n  useCustomGradlePropertiesTemplate: 0\n  useCustomGradleSettingsTemplate: 0\n  useCustomProguardFile: 0\n  AndroidTargetArchitectures: 2\n  AndroidTargetDevices: 0\n  AndroidSplashScreenScale: 0\n  androidSplashScreen: {fileID: 0}\n  AndroidKeystoreName: '{inproject}: '\n  AndroidKeyaliasName: \n  AndroidEnableArmv9SecurityFeatures: 0\n  AndroidBuildApkPerCpuArchitecture: 0\n  AndroidTVCompatibility: 0\n  AndroidIsGame: 1\n  AndroidEnableTango: 0\n  androidEnableBanner: 1\n  androidUseLowAccuracyLocation: 0\n  androidUseCustomKeystore: 0\n  m_AndroidBanners:\n  - width: 320\n    height: 180\n    banner: {fileID: 0}\n  androidGamepadSupportLevel: 0\n  chromeosInputEmulation: 1\n  AndroidMinifyRelease: 0\n  AndroidMinifyDebug: 0\n  AndroidValidateAppBundleSize: 1\n  AndroidAppBundleSizeToValidate: 150\n  m_BuildTargetIcons:\n  - m_BuildTarget: \n    m_Icons:\n    - serializedVersion: 2\n      m_Icon: {fileID: 0}\n      m_Width: 128\n      m_Height: 128\n      m_Kind: 0\n  m_BuildTargetPlatformIcons:\n  - m_BuildTarget: Android\n    m_Icons:\n    - m_Textures:\n      - {fileID: 2800000, guid: b15ee11232b424d68898398fe3cab2d0, type: 3}\n      m_Width: 192\n      m_Height: 192\n      m_Kind: 0\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: fe689abc1067e4869a58c87d14482078, type: 3}\n      m_Width: 144\n      m_Height: 144\n      m_Kind: 0\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: 827b731c62d8d42c093899fa44179bb2, type: 3}\n      m_Width: 96\n      m_Height: 96\n      m_Kind: 0\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: d85ccead4ae714b0682b281b94267e7f, type: 3}\n      m_Width: 72\n      m_Height: 72\n      m_Kind: 0\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: 6fae8ff752f494bacb3c562bed7dea2d, type: 3}\n      m_Width: 48\n      m_Height: 48\n      m_Kind: 0\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: 98e9bf2eec31e492d858fd08e8223ca4, type: 3}\n      m_Width: 36\n      m_Height: 36\n      m_Kind: 0\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: b15ee11232b424d68898398fe3cab2d0, type: 3}\n      m_Width: 192\n      m_Height: 192\n      m_Kind: 1\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: fe689abc1067e4869a58c87d14482078, type: 3}\n      m_Width: 144\n      m_Height: 144\n      m_Kind: 1\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: 827b731c62d8d42c093899fa44179bb2, type: 3}\n      m_Width: 96\n      m_Height: 96\n      m_Kind: 1\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: d85ccead4ae714b0682b281b94267e7f, type: 3}\n      m_Width: 72\n      m_Height: 72\n      m_Kind: 1\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: 6fae8ff752f494bacb3c562bed7dea2d, type: 3}\n      m_Width: 48\n      m_Height: 48\n      m_Kind: 1\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: 98e9bf2eec31e492d858fd08e8223ca4, type: 3}\n      m_Width: 36\n      m_Height: 36\n      m_Kind: 1\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: 17890dd0942584ef7b1886ffc15250a1, type: 3}\n      - {fileID: 2800000, guid: 44f5763023bff4d3dbfb13b858cff6ce, type: 3}\n      m_Width: 432\n      m_Height: 432\n      m_Kind: 2\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: 2c78137d6929a46249f124bad6c3c8a8, type: 3}\n      - {fileID: 2800000, guid: b4f6488d420d24b3fa919a0d3a53bcf2, type: 3}\n      m_Width: 324\n      m_Height: 324\n      m_Kind: 2\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: ad05b3745e8844194bae1994e47cd9b3, type: 3}\n      - {fileID: 2800000, guid: 78781f500fd7e4133b37547cebfe0231, type: 3}\n      m_Width: 216\n      m_Height: 216\n      m_Kind: 2\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: 96655ac7a5e9f46d0af3ba32b5ce1d2c, type: 3}\n      - {fileID: 2800000, guid: 02ad1a4d05ea64249bdee469ef9fe40c, type: 3}\n      m_Width: 162\n      m_Height: 162\n      m_Kind: 2\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: aebd9fdb8f30d4d18b318f4312877849, type: 3}\n      - {fileID: 2800000, guid: 71bdaccaa006c43bf9b5eaa2ef7bad56, type: 3}\n      m_Width: 108\n      m_Height: 108\n      m_Kind: 2\n      m_SubKind: \n    - m_Textures:\n      - {fileID: 2800000, guid: 7b3a41568325b49058f0f996eb569a3b, type: 3}\n      - {fileID: 2800000, guid: 626c896dc88974a9fb360ba573bb43e5, type: 3}\n      m_Width: 81\n      m_Height: 81\n      m_Kind: 2\n      m_SubKind: \n  - m_BuildTarget: iPhone\n    m_Icons:\n    - m_Textures:\n      - {fileID: 2800000, guid: 50f07d81dcf4c4fbb8b2c326e7d4b6bb, type: 3}\n      m_Width: 1024\n      m_Height: 1024\n      m_Kind: 4\n      m_SubKind: App Store\n    - m_Textures:\n      - {fileID: 2800000, guid: 83a6483f53e5f448a84f14d9e27ee822, type: 3}\n      m_Width: 60\n      m_Height: 60\n      m_Kind: 2\n      m_SubKind: iPhone\n    - m_Textures:\n      - {fileID: 2800000, guid: b3252f95d1a3a4cd58871ff4716e5d8b, type: 3}\n      m_Width: 40\n      m_Height: 40\n      m_Kind: 2\n      m_SubKind: iPhone\n    - m_Textures:\n      - {fileID: 2800000, guid: b3252f95d1a3a4cd58871ff4716e5d8b, type: 3}\n      m_Width: 40\n      m_Height: 40\n      m_Kind: 2\n      m_SubKind: iPad\n    - m_Textures:\n      - {fileID: 2800000, guid: f9da296bf616b458d98a63f8f7557004, type: 3}\n      m_Width: 20\n      m_Height: 20\n      m_Kind: 2\n      m_SubKind: iPad\n    - m_Textures:\n      - {fileID: 2800000, guid: dd034f60ad00b407089fd2248eb2bae0, type: 3}\n      m_Width: 87\n      m_Height: 87\n      m_Kind: 1\n      m_SubKind: iPhone\n    - m_Textures:\n      - {fileID: 2800000, guid: 753491ea5c3de4f928409d7f8e96b80b, type: 3}\n      m_Width: 58\n      m_Height: 58\n      m_Kind: 1\n      m_SubKind: iPhone\n    - m_Textures:\n      - {fileID: 2800000, guid: ead39ea5b70b3401090170549ec78dda, type: 3}\n      m_Width: 29\n      m_Height: 29\n      m_Kind: 1\n      m_SubKind: iPhone\n    - m_Textures:\n      - {fileID: 2800000, guid: 753491ea5c3de4f928409d7f8e96b80b, type: 3}\n      m_Width: 58\n      m_Height: 58\n      m_Kind: 1\n      m_SubKind: iPad\n    - m_Textures:\n      - {fileID: 2800000, guid: ead39ea5b70b3401090170549ec78dda, type: 3}\n      m_Width: 29\n      m_Height: 29\n      m_Kind: 1\n      m_SubKind: iPad\n    - m_Textures:\n      - {fileID: 2800000, guid: e5d044c008db542bf8371f7e7c91bb50, type: 3}\n      m_Width: 120\n      m_Height: 120\n      m_Kind: 3\n      m_SubKind: iPhone\n    - m_Textures:\n      - {fileID: 2800000, guid: b36a145ee04964f5a8fbc998f53ad10f, type: 3}\n      m_Width: 80\n      m_Height: 80\n      m_Kind: 3\n      m_SubKind: iPhone\n    - m_Textures:\n      - {fileID: 2800000, guid: b36a145ee04964f5a8fbc998f53ad10f, type: 3}\n      m_Width: 80\n      m_Height: 80\n      m_Kind: 3\n      m_SubKind: iPad\n    - m_Textures:\n      - {fileID: 2800000, guid: b3252f95d1a3a4cd58871ff4716e5d8b, type: 3}\n      m_Width: 40\n      m_Height: 40\n      m_Kind: 3\n      m_SubKind: iPad\n    - m_Textures:\n      - {fileID: 2800000, guid: 73c9e6fc8fd374b119e143a8bc52bf28, type: 3}\n      m_Width: 180\n      m_Height: 180\n      m_Kind: 0\n      m_SubKind: iPhone\n    - m_Textures:\n      - {fileID: 2800000, guid: e5d044c008db542bf8371f7e7c91bb50, type: 3}\n      m_Width: 120\n      m_Height: 120\n      m_Kind: 0\n      m_SubKind: iPhone\n    - m_Textures:\n      - {fileID: 2800000, guid: 4cbc9362b367d44d58da2b6146f50c17, type: 3}\n      m_Width: 167\n      m_Height: 167\n      m_Kind: 0\n      m_SubKind: iPad\n    - m_Textures:\n      - {fileID: 2800000, guid: 6cb233dc65f0b459daf2ad80d17034da, type: 3}\n      m_Width: 152\n      m_Height: 152\n      m_Kind: 0\n      m_SubKind: iPad\n    - m_Textures:\n      - {fileID: 2800000, guid: 819aa9af392f0436686712974e387eb9, type: 3}\n      m_Width: 76\n      m_Height: 76\n      m_Kind: 0\n      m_SubKind: iPad\n  m_BuildTargetBatching: []\n  m_BuildTargetShaderSettings: []\n  m_BuildTargetGraphicsJobs:\n  - m_BuildTarget: MacStandaloneSupport\n    m_GraphicsJobs: 0\n  - m_BuildTarget: Switch\n    m_GraphicsJobs: 0\n  - m_BuildTarget: MetroSupport\n    m_GraphicsJobs: 0\n  - m_BuildTarget: AppleTVSupport\n    m_GraphicsJobs: 0\n  - m_BuildTarget: BJMSupport\n    m_GraphicsJobs: 0\n  - m_BuildTarget: LinuxStandaloneSupport\n    m_GraphicsJobs: 0\n  - m_BuildTarget: PS4Player\n    m_GraphicsJobs: 0\n  - m_BuildTarget: iOSSupport\n    m_GraphicsJobs: 0\n  - m_BuildTarget: WindowsStandaloneSupport\n    m_GraphicsJobs: 0\n  - m_BuildTarget: XboxOnePlayer\n    m_GraphicsJobs: 0\n  - m_BuildTarget: LuminSupport\n    m_GraphicsJobs: 0\n  - m_BuildTarget: AndroidPlayer\n    m_GraphicsJobs: 0\n  - m_BuildTarget: WebGLSupport\n    m_GraphicsJobs: 0\n  m_BuildTargetGraphicsJobMode:\n  - m_BuildTarget: PS4Player\n    m_GraphicsJobMode: 0\n  - m_BuildTarget: XboxOnePlayer\n    m_GraphicsJobMode: 0\n  m_BuildTargetGraphicsAPIs:\n  - m_BuildTarget: AndroidPlayer\n    m_APIs: 1500000008000000\n    m_Automatic: 0\n  - m_BuildTarget: iOSSupport\n    m_APIs: 10000000\n    m_Automatic: 1\n  m_BuildTargetVRSettings: []\n  m_DefaultShaderChunkSizeInMB: 16\n  m_DefaultShaderChunkCount: 0\n  openGLRequireES31: 0\n  openGLRequireES31AEP: 0\n  openGLRequireES32: 0\n  m_TemplateCustomTags: {}\n  mobileMTRendering:\n    Android: 1\n    iPhone: 1\n    tvOS: 1\n  m_BuildTargetGroupLightmapEncodingQuality:\n  - m_BuildTarget: Standalone\n    m_EncodingQuality: 1\n  - m_BuildTarget: XboxOne\n    m_EncodingQuality: 1\n  - m_BuildTarget: PS4\n    m_EncodingQuality: 1\n  m_BuildTargetGroupHDRCubemapEncodingQuality:\n  - m_BuildTarget: Standalone\n    m_EncodingQuality: 2\n  - m_BuildTarget: XboxOne\n    m_EncodingQuality: 2\n  - m_BuildTarget: PS4\n    m_EncodingQuality: 2\n  m_BuildTargetGroupLightmapSettings: []\n  m_BuildTargetGroupLoadStoreDebugModeSettings: []\n  m_BuildTargetNormalMapEncoding: []\n  m_BuildTargetDefaultTextureCompressionFormat: []\n  playModeTestRunnerEnabled: 0\n  runPlayModeTestAsEditModeTest: 0\n  actionOnDotNetUnhandledException: 1\n  enableInternalProfiler: 0\n  logObjCUncaughtExceptions: 1\n  enableCrashReportAPI: 0\n  cameraUsageDescription: Camera access required for target detection and tracking\n  locationUsageDescription: \n  microphoneUsageDescription: \n  bluetoothUsageDescription: \n  macOSTargetOSVersion: 10.13.0\n  switchNMETAOverride: \n  switchNetLibKey: \n  switchSocketMemoryPoolSize: 6144\n  switchSocketAllocatorPoolSize: 128\n  switchSocketConcurrencyLimit: 14\n  switchScreenResolutionBehavior: 2\n  switchUseCPUProfiler: 0\n  switchEnableFileSystemTrace: 0\n  switchLTOSetting: 0\n  switchApplicationID: 0x01004b9000490000\n  switchNSODependencies: \n  switchCompilerFlags: \n  switchTitleNames_0: \n  switchTitleNames_1: \n  switchTitleNames_2: \n  switchTitleNames_3: \n  switchTitleNames_4: \n  switchTitleNames_5: \n  switchTitleNames_6: \n  switchTitleNames_7: \n  switchTitleNames_8: \n  switchTitleNames_9: \n  switchTitleNames_10: \n  switchTitleNames_11: \n  switchTitleNames_12: \n  switchTitleNames_13: \n  switchTitleNames_14: \n  switchTitleNames_15: \n  switchPublisherNames_0: \n  switchPublisherNames_1: \n  switchPublisherNames_2: \n  switchPublisherNames_3: \n  switchPublisherNames_4: \n  switchPublisherNames_5: \n  switchPublisherNames_6: \n  switchPublisherNames_7: \n  switchPublisherNames_8: \n  switchPublisherNames_9: \n  switchPublisherNames_10: \n  switchPublisherNames_11: \n  switchPublisherNames_12: \n  switchPublisherNames_13: \n  switchPublisherNames_14: \n  switchPublisherNames_15: \n  switchIcons_0: {fileID: 0}\n  switchIcons_1: {fileID: 0}\n  switchIcons_2: {fileID: 0}\n  switchIcons_3: {fileID: 0}\n  switchIcons_4: {fileID: 0}\n  switchIcons_5: {fileID: 0}\n  switchIcons_6: {fileID: 0}\n  switchIcons_7: {fileID: 0}\n  switchIcons_8: {fileID: 0}\n  switchIcons_9: {fileID: 0}\n  switchIcons_10: {fileID: 0}\n  switchIcons_11: {fileID: 0}\n  switchIcons_12: {fileID: 0}\n  switchIcons_13: {fileID: 0}\n  switchIcons_14: {fileID: 0}\n  switchIcons_15: {fileID: 0}\n  switchSmallIcons_0: {fileID: 0}\n  switchSmallIcons_1: {fileID: 0}\n  switchSmallIcons_2: {fileID: 0}\n  switchSmallIcons_3: {fileID: 0}\n  switchSmallIcons_4: {fileID: 0}\n  switchSmallIcons_5: {fileID: 0}\n  switchSmallIcons_6: {fileID: 0}\n  switchSmallIcons_7: {fileID: 0}\n  switchSmallIcons_8: {fileID: 0}\n  switchSmallIcons_9: {fileID: 0}\n  switchSmallIcons_10: {fileID: 0}\n  switchSmallIcons_11: {fileID: 0}\n  switchSmallIcons_12: {fileID: 0}\n  switchSmallIcons_13: {fileID: 0}\n  switchSmallIcons_14: {fileID: 0}\n  switchSmallIcons_15: {fileID: 0}\n  switchManualHTML: \n  switchAccessibleURLs: \n  switchLegalInformation: \n  switchMainThreadStackSize: 1048576\n  switchPresenceGroupId: 0x01004b9000490000\n  switchLogoHandling: 0\n  switchReleaseVersion: 0\n  switchDisplayVersion: 1.0.0\n  switchStartupUserAccount: 0\n  switchSupportedLanguagesMask: 0\n  switchLogoType: 0\n  switchApplicationErrorCodeCategory: \n  switchUserAccountSaveDataSize: 0\n  switchUserAccountSaveDataJournalSize: 0\n  switchApplicationAttribute: 0\n  switchCardSpecSize: 4\n  switchCardSpecClock: 25\n  switchRatingsMask: 0\n  switchRatingsInt_0: 0\n  switchRatingsInt_1: 0\n  switchRatingsInt_2: 0\n  switchRatingsInt_3: 0\n  switchRatingsInt_4: 0\n  switchRatingsInt_5: 0\n  switchRatingsInt_6: 0\n  switchRatingsInt_7: 0\n  switchRatingsInt_8: 0\n  switchRatingsInt_9: 0\n  switchRatingsInt_10: 0\n  switchRatingsInt_11: 0\n  switchRatingsInt_12: 0\n  switchLocalCommunicationIds_0: 0x01004b9000490000\n  switchLocalCommunicationIds_1: \n  switchLocalCommunicationIds_2: \n  switchLocalCommunicationIds_3: \n  switchLocalCommunicationIds_4: \n  switchLocalCommunicationIds_5: \n  switchLocalCommunicationIds_6: \n  switchLocalCommunicationIds_7: \n  switchParentalControl: 0\n  switchAllowsScreenshot: 1\n  switchAllowsVideoCapturing: 1\n  switchAllowsRuntimeAddOnContentInstall: 0\n  switchDataLossConfirmation: 0\n  switchUserAccountLockEnabled: 0\n  switchSystemResourceMemory: 16777216\n  switchSupportedNpadStyles: 3\n  switchNativeFsCacheSize: 32\n  switchIsHoldTypeHorizontal: 0\n  switchSupportedNpadCount: 8\n  switchEnableTouchScreen: 1\n  switchSocketConfigEnabled: 0\n  switchTcpInitialSendBufferSize: 32\n  switchTcpInitialReceiveBufferSize: 64\n  switchTcpAutoSendBufferSizeMax: 256\n  switchTcpAutoReceiveBufferSizeMax: 256\n  switchUdpSendBufferSize: 9\n  switchUdpReceiveBufferSize: 42\n  switchSocketBufferEfficiency: 4\n  switchSocketInitializeEnabled: 1\n  switchNetworkInterfaceManagerInitializeEnabled: 1\n  switchUseNewStyleFilepaths: 0\n  switchUseLegacyFmodPriorities: 0\n  switchUseMicroSleepForYield: 1\n  switchEnableRamDiskSupport: 0\n  switchMicroSleepForYieldTime: 25\n  switchRamDiskSpaceSize: 12\n  ps4NPAgeRating: 12\n  ps4NPTitleSecret: \n  ps4NPTrophyPackPath: \n  ps4ParentalLevel: 1\n  ps4ContentID: ED1633-NPXX51362_00-0000000000000000\n  ps4Category: 0\n  ps4MasterVersion: 01.00\n  ps4AppVersion: 01.00\n  ps4AppType: 0\n  ps4ParamSfxPath: \n  ps4VideoOutPixelFormat: 0\n  ps4VideoOutInitialWidth: 1920\n  ps4VideoOutBaseModeInitialWidth: 1920\n  ps4VideoOutReprojectionRate: 120\n  ps4PronunciationXMLPath: \n  ps4PronunciationSIGPath: \n  ps4BackgroundImagePath: \n  ps4StartupImagePath: \n  ps4StartupImagesFolder: \n  ps4IconImagesFolder: \n  ps4SaveDataImagePath: \n  ps4SdkOverride: \n  ps4BGMPath: \n  ps4ShareFilePath: \n  ps4ShareOverlayImagePath: \n  ps4PrivacyGuardImagePath: \n  ps4ExtraSceSysFile: \n  ps4NPtitleDatPath: \n  ps4RemotePlayKeyAssignment: -1\n  ps4RemotePlayKeyMappingDir: \n  ps4PlayTogetherPlayerCount: 0\n  ps4EnterButtonAssignment: 1\n  ps4ApplicationParam1: 0\n  ps4ApplicationParam2: 0\n  ps4ApplicationParam3: 0\n  ps4ApplicationParam4: 0\n  ps4DownloadDataSize: 0\n  ps4GarlicHeapSize: 2048\n  ps4ProGarlicHeapSize: 2560\n  playerPrefsMaxSize: 32768\n  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ\n  ps4pnSessions: 1\n  ps4pnPresence: 1\n  ps4pnFriends: 1\n  ps4pnGameCustomData: 1\n  playerPrefsSupport: 0\n  enableApplicationExit: 0\n  resetTempFolder: 1\n  restrictedAudioUsageRights: 0\n  ps4UseResolutionFallback: 0\n  ps4ReprojectionSupport: 0\n  ps4UseAudio3dBackend: 0\n  ps4UseLowGarlicFragmentationMode: 1\n  ps4SocialScreenEnabled: 0\n  ps4ScriptOptimizationLevel: 3\n  ps4Audio3dVirtualSpeakerCount: 14\n  ps4attribCpuUsage: 0\n  ps4PatchPkgPath: \n  ps4PatchLatestPkgPath: \n  ps4PatchChangeinfoPath: \n  ps4PatchDayOne: 0\n  ps4attribUserManagement: 0\n  ps4attribMoveSupport: 0\n  ps4attrib3DSupport: 0\n  ps4attribShareSupport: 0\n  ps4attribExclusiveVR: 0\n  ps4disableAutoHideSplash: 0\n  ps4videoRecordingFeaturesUsed: 0\n  ps4contentSearchFeaturesUsed: 0\n  ps4CompatibilityPS5: 0\n  ps4AllowPS5Detection: 0\n  ps4GPU800MHz: 1\n  ps4attribEyeToEyeDistanceSettingVR: 0\n  ps4IncludedModules: []\n  ps4attribVROutputEnabled: 0\n  monoEnv: \n  splashScreenBackgroundSourceLandscape: {fileID: 0}\n  splashScreenBackgroundSourcePortrait: {fileID: 0}\n  blurSplashScreenBackground: 1\n  spritePackerPolicy: \n  webGLMemorySize: 256\n  webGLExceptionSupport: 1\n  webGLNameFilesAsHashes: 0\n  webGLShowDiagnostics: 0\n  webGLDataCaching: 0\n  webGLDebugSymbols: 0\n  webGLEmscriptenArgs: \n  webGLModulesDirectory: \n  webGLTemplate: APPLICATION:Default\n  webGLAnalyzeBuildSize: 0\n  webGLUseEmbeddedResources: 0\n  webGLCompressionFormat: 1\n  webGLWasmArithmeticExceptions: 0\n  webGLLinkerTarget: 0\n  webGLThreadsSupport: 0\n  webGLDecompressionFallback: 0\n  webGLInitialMemorySize: 32\n  webGLMaximumMemorySize: 2048\n  webGLMemoryGrowthMode: 2\n  webGLMemoryLinearGrowthStep: 16\n  webGLMemoryGeometricGrowthStep: 0.2\n  webGLMemoryGeometricGrowthCap: 96\n  webGLPowerPreference: 2\n  scriptingDefineSymbols:\n    Android: VUFORIA_ANDROID_SETTINGS\n    Windows Store Apps: VUFORIA_WSA_SETTINGS\n    iPhone: VUFORIA_IOS_SETTINGS\n  additionalCompilerArguments: {}\n  platformArchitecture:\n    iPhone: 1\n  scriptingBackend:\n    Android: 1\n    Standalone: 0\n    WP8: 2\n    WebGL: 1\n    WebPlayer: 0\n    Windows Store Apps: 1\n    iPhone: 1\n  il2cppCompilerConfiguration: {}\n  il2cppCodeGeneration: {}\n  managedStrippingLevel:\n    Android: 1\n    EmbeddedLinux: 1\n    GameCoreScarlett: 1\n    GameCoreXboxOne: 1\n    Nintendo Switch: 1\n    PS4: 1\n    PS5: 1\n    QNX: 1\n    Stadia: 1\n    VisionOS: 1\n    WebGL: 1\n    Windows Store Apps: 1\n    XboxOne: 1\n    iPhone: 1\n    tvOS: 1\n  incrementalIl2cppBuild:\n    iPhone: 1\n  suppressCommonWarnings: 1\n  allowUnsafeCode: 0\n  useDeterministicCompilation: 1\n  additionalIl2CppArgs: \n  scriptingRuntimeVersion: 1\n  gcIncremental: 0\n  gcWBarrierValidation: 0\n  apiCompatibilityLevelPerPlatform: {}\n  m_RenderingPath: 1\n  m_MobileRenderingPath: 1\n  metroPackageName: 112-2-AR-Final\n  metroPackageVersion: 10.22.5.0\n  metroCertificatePath: Assets\\WSATestCertificate.pfx\n  metroCertificatePassword: \n  metroCertificateSubject: Vuforia\n  metroCertificateIssuer: Vuforia\n  metroCertificateNotAfter: 80a428773e1cd501\n  metroApplicationDescription: 112-2-AR-Final\n  wsaImages:\n    65636: Assets/Common/Icons/UWP/StoreLogo.scale-100.png\n    65661: Assets/Common/Icons/UWP/StoreLogo.scale-125.png\n    65686: Assets/Common/Icons/UWP/StoreLogo.scale-150.png\n    65736: Assets/Common/Icons/UWP/StoreLogo.scale-200.png\n    65936: Assets/Common/Icons/UWP/StoreLogo.scale-400.png\n    131172: Assets/Common/Icons/UWP/SplashScreen.scale-100.png\n    131197: Assets/Common/Icons/UWP/SplashScreen.scale-125.png\n    131222: Assets/Common/Icons/UWP/SplashScreen.scale-150.png\n    131272: Assets/Common/Icons/UWP/SplashScreen.scale-200.png\n    2031632: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-16.png\n    2031640: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-24.png\n    2031648: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-32.png\n    2031664: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-48.png\n    2031716: Assets/Common/Icons/UWP/Square44x44Logo.scale-100.png\n    2031741: Assets/Common/Icons/UWP/Square44x44Logo.scale-125.png\n    2031766: Assets/Common/Icons/UWP/Square44x44Logo.scale-150.png\n    2031816: Assets/Common/Icons/UWP/Square44x44Logo.scale-200.png\n    2031872: Assets/Common/Icons/UWP/Square44x44Logo.targetsize-256.png\n    2032016: Assets/Common/Icons/UWP/Square44x44Logo.scale-400.png\n    2162788: Assets/Common/Icons/UWP/Square150x150Logo.scale-100.png\n    2162813: Assets/Common/Icons/UWP/Square150x150Logo.scale-125.png\n    2162838: Assets/Common/Icons/UWP/Square150x150Logo.scale-150.png\n    2162888: Assets/Common/Icons/UWP/Square150x150Logo.scale-200.png\n    2163088: Assets/Common/Icons/UWP/Square150x150Logo.scale-400.png\n    2293860: Assets/Common/Icons/UWP/Wide310x150Logo.scale-100.png\n    2293885: Assets/Common/Icons/UWP/Wide310x150Logo.scale-125.png\n    2293910: Assets/Common/Icons/UWP/Wide310x150Logo.scale-150.png\n    2293960: Assets/Common/Icons/UWP/Wide310x150Logo.scale-200.png\n    2294160: Assets/Common/Icons/UWP/Wide310x150Logo.scale-400.png\n  metroTileShortName: Vuforia Engine\n  metroTileShowName: 0\n  metroMediumTileShowName: 1\n  metroLargeTileShowName: 0\n  metroWideTileShowName: 1\n  metroSupportStreamingInstall: 0\n  metroLastRequiredScene: 0\n  metroDefaultTileSize: 1\n  metroTileForegroundText: 1\n  metroTileBackgroundColor: {r: 0.4117647, g: 0.7490196, b: 0.2901961, a: 1}\n  metroSplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}\n  metroSplashScreenUseBackgroundColor: 1\n  syncCapabilities: 0\n  platformCapabilities:\n    WindowsStoreApps:\n      EnterpriseAuthentication: False\n      OfflineMapsManagement: False\n      HumanInterfaceDevice: False\n      Location: False\n      Chat: False\n      Bluetooth: False\n      AllJoyn: False\n      MusicLibrary: False\n      LowLevelDevices: False\n      PrivateNetworkClientServer: False\n      InternetClientServer: False\n      VideosLibrary: False\n      Objects3D: False\n      RemoteSystem: False\n      BlockedChatMessages: False\n      PhoneCall: False\n      UserDataTasks: False\n      Appointments: False\n      SystemManagement: False\n      SpatialPerception: False\n      Microphone: False\n      SharedUserCertificates: False\n      InputInjectionBrokered: False\n      PicturesLibrary: False\n      RemovableStorage: False\n      WebCam: True\n      VoipCall: False\n      UserAccountInformation: False\n      UserNotificationListener: False\n      PhoneCallHistoryPublic: False\n      PointOfService: False\n      RecordedCallsFolder: False\n      Contacts: False\n      Proximity: False\n      InternetClient: True\n      CodeGeneration: False\n      BackgroundMediaPlayback: False\n  metroTargetDeviceFamilies:\n    Desktop: False\n    Holographic: False\n    IoT: False\n    IoTHeadless: False\n    Mobile: False\n    Team: False\n    Xbox: False\n  metroFTAName: \n  metroFTAFileTypes: []\n  metroProtocolName: \n  vcxProjDefaultLanguage: \n  XboxOneProductId: \n  XboxOneUpdateKey: \n  XboxOneSandboxId: \n  XboxOneContentId: \n  XboxOneTitleId: \n  XboxOneSCId: \n  XboxOneGameOsOverridePath: \n  XboxOnePackagingOverridePath: \n  XboxOneAppManifestOverridePath: \n  XboxOneVersion: 1.0.0.0\n  XboxOnePackageEncryption: 0\n  XboxOnePackageUpdateGranularity: 2\n  XboxOneDescription: \n  XboxOneLanguage:\n  - enus\n  XboxOneCapability: []\n  XboxOneGameRating: {}\n  XboxOneIsContentPackage: 0\n  XboxOneEnhancedXboxCompatibilityMode: 0\n  XboxOneEnableGPUVariability: 0\n  XboxOneSockets: {}\n  XboxOneSplashScreen: {fileID: 0}\n  XboxOneAllowedProductIds: []\n  XboxOnePersistentLocalStorageSize: 0\n  XboxOneXTitleMemory: 8\n  XboxOneOverrideIdentityName: \n  XboxOneOverrideIdentityPublisher: \n  vrEditorSettings: {}\n  cloudServicesEnabled: {}\n  luminIcon:\n    m_Name: \n    m_ModelFolderPath: \n    m_PortalFolderPath: \n  luminCert:\n    m_CertPath: \n    m_SignPackage: 1\n  luminIsChannelApp: 0\n  luminVersion:\n    m_VersionCode: 10225\n    m_VersionName: 10.22.5\n  hmiPlayerDataPath: \n  hmiForceSRGBBlit: 1\n  embeddedLinuxEnableGamepadInput: 1\n  hmiLogStartupTiming: 0\n  hmiCpuConfiguration: \n  apiCompatibilityLevel: 3\n  activeInputHandler: 0\n  windowsGamepadBackendHint: 0\n  cloudProjectId: 5f68294c-8c35-49c2-818c-0c6106264ce1\n  framebufferDepthMemorylessMode: 0\n  qualitySettingsNames: []\n  projectName: \n  organizationId: gary321588\n  cloudEnabled: 0\n  legacyClampBlendShapeWeights: 1\n  hmiLoadingImage: {fileID: 0}\n  platformRequiresReadableAssets: 0\n  virtualTexturingSupportEnabled: 0\n  insecureHttpOption: 0\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ProjectSettings/ProjectSettings.asset b/ProjectSettings/ProjectSettings.asset
+--- a/ProjectSettings/ProjectSettings.asset	(revision e3669ebeb2e02fc1febb59399f014aa5c99ddd0d)
++++ b/ProjectSettings/ProjectSettings.asset	(date 1718623253363)
+@@ -4,7 +4,7 @@
+ PlayerSettings:
+   m_ObjectHideFlags: 0
+   serializedVersion: 26
+-  productGUID: 00000000000000000000000000000000
++  productGUID: 9f66558f6f4987943abe2f8075d13395
+   AndroidProfiler: 0
+   AndroidFilterTouchesWhenObscured: 0
+   AndroidEnableSustainedPerformanceMode: 0
+@@ -40,7 +40,8 @@
+     width: 1
+     height: 1
+   m_SplashScreenLogos: []
+-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: e0866a3fe6007224a9e3078d831ce6fc, type: 3}
++  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: e0866a3fe6007224a9e3078d831ce6fc,
++    type: 3}
+   m_HolographicTrackingLossScreen: {fileID: 0}
+   defaultScreenWidth: 1024
+   defaultScreenHeight: 768
+@@ -952,7 +953,7 @@
+   syncCapabilities: 0
+   platformCapabilities:
+     WindowsStoreApps:
+-      EnterpriseAuthentication: False
++      CodeGeneration: False
+       OfflineMapsManagement: False
+       HumanInterfaceDevice: False
+       Location: False
+@@ -987,8 +988,8 @@
+       Contacts: False
+       Proximity: False
+       InternetClient: True
+-      CodeGeneration: False
+       BackgroundMediaPlayback: False
++      EnterpriseAuthentication: False
+   metroTargetDeviceFamilies:
+     Desktop: False
+     Holographic: False
+@@ -1047,12 +1048,12 @@
+   hmiLogStartupTiming: 0
+   hmiCpuConfiguration: 
+   apiCompatibilityLevel: 3
+-  activeInputHandler: 0
++  activeInputHandler: 1
+   windowsGamepadBackendHint: 0
+   cloudProjectId: 5f68294c-8c35-49c2-818c-0c6106264ce1
+   framebufferDepthMemorylessMode: 0
+   qualitySettingsNames: []
+-  projectName: 
++  projectName: FinalARProject
+   organizationId: gary321588
+   cloudEnabled: 0
+   legacyClampBlendShapeWeights: 1
+Index: Assets/Script/Game.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Script/Game.meta b/Assets/Script/Game.meta
+new file mode 100644
+--- /dev/null	(date 1718622964642)
++++ b/Assets/Script/Game.meta	(date 1718622964642)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: e096eb9e7eae4c828554ce9afa8d792a
++timeCreated: 1718622964
+\ No newline at end of file

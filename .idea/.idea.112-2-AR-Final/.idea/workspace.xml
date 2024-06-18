@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7b3a076-0f79-4c35-8745-2992fa6dc35b" name="Changes" comment="feat: player movement">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.112-2-AR-Final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.112-2-AR-Final/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Game/JoyStickController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Game/JoyStickController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Game/PlayerMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Game/PlayerMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Game/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Game/GameManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="b7b3a076-0f79-4c35-8745-2992fa6dc35b" name="Changes" comment="feat: player movement" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +18,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Project/112-2AR/112-2-AR-Final/Assets/Editor/Vuforia/ImageTargetTextures/AR_Dinosaur_Game/dinosaur_scaled.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Project/112-2AR/112-2-AR-Final/Assets/Scenes/GameTest.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Game/PlayerHatchEgg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Project/112-2AR/112-2-AR-Final/Assets/Script/Game/UI/HatchBarController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{

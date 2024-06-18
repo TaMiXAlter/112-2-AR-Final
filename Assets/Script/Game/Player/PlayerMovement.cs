@@ -7,35 +7,27 @@ using ETouch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
 public class PlayerMovement : MonoBehaviour
 {
+    #region moveProper
+
     [SerializeField]
     private Vector2 JoyStickSize = new Vector2(300f, 300f);
     [SerializeField]
     private JoyStickController joyStickController;
-    
-    private Finger MovementFinger;
     [SerializeField,Header("Spector")]
     private Vector2 MovementAmount;
     [SerializeField]
     private float Speed = 0.1f;
 
+    #endregion
+   
+    
+    private Finger MovementFinger;
+
+
     #region  TouchController
-    private void OnEnable()
-    {
-        EnhancedTouchSupport.Enable();
-        ETouch.onFingerDown += OnFingerDown;
-        ETouch.onFingerMove += OnFingerMove;
-        ETouch.onFingerUp += OnFingerUp;
-    }
 
-    private void OnDisable()
-    {
-        ETouch.onFingerDown -= OnFingerDown;
-        ETouch.onFingerMove -= OnFingerMove;
-        ETouch.onFingerUp -= OnFingerUp;
-        EnhancedTouchSupport.Disable();
-    }
 
-    private void OnFingerDown(Finger Finger)
+    private void StartMove(Finger Finger)
     {
         MovementFinger = Finger;
         MovementAmount = Vector2.zero;
@@ -43,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
         joyStickController.RectTransform.sizeDelta = JoyStickSize;
         joyStickController.RectTransform.anchoredPosition =ClampStartPosition(Finger.screenPosition);
     }
-    private void OnFingerMove(Finger Finger)
+    private void Moving(Finger Finger)
     {
         if (Finger == MovementFinger)
         {
@@ -66,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
             MovementAmount = knobPosition / maxMovement;
         }
     }
-    private void OnFingerUp(Finger LostFinger)
+    private void StopMove(Finger LostFinger)
     {
         if (MovementFinger == LostFinger)
         {
@@ -76,7 +68,6 @@ public class PlayerMovement : MonoBehaviour
             MovementAmount = Vector2.zero;
         }
     }
-    
     private Vector2 ClampStartPosition(Vector2 StartPosition)
     { 
         if(StartPosition.x < JoyStickSize.x/2) StartPosition.x = JoyStickSize.x/2;
@@ -85,7 +76,21 @@ public class PlayerMovement : MonoBehaviour
         return StartPosition;
     }
     #endregion
+    private void OnEnable()
+    {
+        EnhancedTouchSupport.Enable();
+        ETouch.onFingerDown += StartMove;
+        ETouch.onFingerMove += Moving;
+        ETouch.onFingerUp += StopMove;
+    }
 
+    private void OnDisable()
+    {
+        ETouch.onFingerDown -= StartMove;
+        ETouch.onFingerMove -= Moving;
+        ETouch.onFingerUp -= StopMove;
+        EnhancedTouchSupport.Disable();
+    }
     private void Start()
     {
         joyStickController.gameObject.SetActive(false);

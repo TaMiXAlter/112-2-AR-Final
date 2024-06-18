@@ -21,7 +21,6 @@ public class HatchBarController : MonoBehaviour
 
     private void Decrease(int max,int current)
     {
-        Debug.Log((float)current / max);
         fillImage.fillAmount = (float)current / max;
     }
 }

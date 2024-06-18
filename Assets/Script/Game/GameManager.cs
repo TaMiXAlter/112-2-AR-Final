@@ -40,6 +40,10 @@ public class GameManager : MonoBehaviour
     {
         HatchTime-=1;
         DecreaseHatchEvent?.Invoke(MaxhatchTime,HatchTime);
+        if (HatchTime == 0)
+        {
+            StageManager.Instance.EndGame(true);
+        }
     }
     
     #endregion
@@ -52,9 +56,15 @@ public class GameManager : MonoBehaviour
     {
         HP--;
         DecreasePlayerHPEvent?.Invoke();
+        if (HP == 0)
+        {
+            StageManager.Instance.EndGame(false);
+        }
     }
     #endregion
-    
+
+    #region SpawnEnemySpawner
+
     [SerializeField,Header("EnemySpawner")]
     private GameObject EnemySpawnerPerfeb;
     [SerializeField]
@@ -63,6 +73,30 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float spawnIntervalDelta = 0.05f;
     [SerializeField] private float SpawnPositionRadius = 5.0f;
     private bool IsSpawning = true;
+    
+    IEnumerator SpawnEnemySpawner(float time)
+    {
+        yield return new WaitForSeconds(time);
+        //get postion
+        float randomX = UnityEngine.Random.Range(-SpawnPositionRadius, SpawnPositionRadius);
+        float randomY = UnityEngine.Random.Range(-SpawnPositionRadius, SpawnPositionRadius);
+        Vector3 SpawnPosion = new Vector3(randomX, randomY, 0);
+        
+        GameObject newEnemy = Instantiate(EnemySpawnerPerfeb,transform);
+        newEnemy.transform.localPosition = SpawnPosion;
+        
+        if (spawnInterval > spawnIntervalDelta)
+        {
+            spawnInterval -= spawnIntervalDelta;
+        }
+        if (IsSpawning)
+        {
+            StartCoroutine(SpawnEnemySpawner(spawnInterval));
+        }
+    }
+
+    #endregion
+    
     private void Awake()
     {
         HatchTime = MaxhatchTime;
@@ -78,24 +112,6 @@ public class GameManager : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position,SpawnPositionRadius);
     }
-    IEnumerator SpawnEnemySpawner(float time)
-    {
-        yield return new WaitForSeconds(time);
-        //get postion
-        float randomX = UnityEngine.Random.Range(-SpawnPositionRadius, SpawnPositionRadius);
-        float randomY = UnityEngine.Random.Range(-SpawnPositionRadius, SpawnPositionRadius);
-        Vector3 SpawnPosion = new Vector3(randomX, randomY, 2.7f);
-        
-        GameObject newEnemy = Instantiate(EnemySpawnerPerfeb,SpawnPosion,Quaternion.identity);
-        
-        if (spawnInterval > spawnIntervalDelta)
-        {
-            spawnInterval -= spawnIntervalDelta;
-        }
-        if (IsSpawning)
-        {
-            StartCoroutine(SpawnEnemySpawner(spawnInterval));
-        }
-    }
+    
 }
 

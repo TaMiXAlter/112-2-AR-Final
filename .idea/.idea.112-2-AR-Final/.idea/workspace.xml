@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7b3a076-0f79-4c35-8745-2992fa6dc35b" name="Changes" comment="feat: player movement" />
+    <list default="true" id="b7b3a076-0f79-4c35-8745-2992fa6dc35b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.112-2-AR-Final/.idea/shelf/Uncommitted_changes_before_Update_at_2024_6_17__07_23__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.112-2-AR-Final/.idea/shelf/Uncommitted_changes_before_Update_at_2024_6_17__07_23__Changes_.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,6 +118,7 @@
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="feat: player movement" />
